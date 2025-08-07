@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.header {
+    background-color: #004F44;
+
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr auto 2fr;
+    padding: 20px 0;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+
+    justify-self: flex-start;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #ffffff;
+    justify-self: center;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    justify-self: flex-end;
+}
+
+.navbar-actions .icon {
+    color: #fff;
+}
+
+.header .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 525px;
+    
+}
+
+.header-info .title {
+    font-family: "Akatab", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    color: #EFF7F5;
+
+}
+
+.header-info .description {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    color: #EFF7F5;
+
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.btn {
+    
+    padding: 8px 16px;
+    background-color: none;
+    border: none;
+}
+
+.btn:not(.btn-link):hover {
+    background-color: #EFF7F5;
+    color: #004F44;
+}
+
+.btn-primary {
+    color: #004F44;
+    background-color: #EFF7F5;
+}
+
+.btn-link {
+    color: #EFF7F5;
+    background-color: #004F44;
+    border: none;
+}
+
+.btn-link a {
+    text-decoration: none;
+    color: #EFF7F5;
+}
+
+
+.btn-border-primary {
+    border: 1px solid #004F44;
+    color: #004F44;
+}
+
+.btn-large {
+    padding: 20px 40px;
+}
+
+.header-gallary {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat (2, 1fr);
+    gap: 4px;;
+    
+}
+
+.header-gallary .item:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.header-gallary .item {
+    position: relative;
+}
+
+.header-gallary .item span {
+ position: absolute;
+ top: 15px;
+ left: 15px;
+ background-color: #004F44;
+ padding: 8px 16px;
+ color: #EFF7F5;
+ font-size: 12px;
+}
+
+
+.header-gallary .item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover
+}
+.item-overlay {
+    display: none;
+}
+
