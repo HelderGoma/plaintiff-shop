@@ -167,6 +167,22 @@
     object-fit: cover
 }
 .item-overlay {
-    display: none;
+    position: absolute;
+    bottom: 0;
+    max-height: 320px;
+    height: 100%;
+
 }
 
+.item-overlay h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+
+.item-overlay p {
+    color: #fff;
+    font-size: 14px;
+  
+}
