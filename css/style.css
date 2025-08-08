@@ -171,6 +171,7 @@
     bottom: 0;
     max-height: 320px;
     height: 100%;
+     background: linear-gradient(178deg, hsl(172deg 36% 21% / 30%) 0%, hsla(172, 36%, 21%, 1) 100%);
 
 }
 
