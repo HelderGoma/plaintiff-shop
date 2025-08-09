@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plantify - Plant Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header class="header">
+        <!-- nav.navbar>(ul.navbar-list>li*4>a{Link $})+(a.navbar-logo>img)+div.navbar-actions>i*3 -->
         <div class="container">
             <nav class="navbar">
                 <ul class="navbar-list">
@@ -37,9 +38,8 @@
             <section class="content">
                 <div class="header-info">
                     <h1 class="title">Happiness blooms from within</h1>
-                    <p class="description">Our environment, the world in which we live and work, is a mirror of our
-                        attitudes and expectations.</p>
-
+                    <p class="description">Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.</p>
+                    
                     <div class="actions">
                         <button class="btn btn-primary btn-large">Shop now</button>
                         <button class="btn btn-link btn-large"><a href="">Explore plants</a></button>
@@ -48,16 +48,15 @@
                 <div class="header-gallary">
                     <div class="item">
                         <span>New</span>
-                        <img src="./image/header3.jpg" alt="">
-                      
+                        <img src="./image/gallery-3.jpg" alt="">
                     </div>
                     <div class="item">
                         <span>Featured</span>
-                        <img src="./image/header1.jpg" alt="">
+                        <img src="./image/gallery-1.jpg" alt="">
                         <div class="item-overlay">
                             <h2>Anthurium Flower</h2>
                             <p>
-                                The flower of human being. It has meaningful of fact that
+                                The flower of human being. It has meaningful of fact that 
                                 the plant always grow whatever season and weather...
                             </p>
                             <button class="btn btn-primary">READ MORE</button>
@@ -65,14 +64,131 @@
                     </div>
                     <div class="item">
                         <span>Popular</span>
-                        <img src="./image/header2.jpg" alt="">
-                        
+                        <img src="./image/gallery-2.jpg" alt="">
                     </div>
                 </div>
             </section>
         </div>
     </header>
 
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section__title">Featured</h2>
+
+                    <a href="" class="section__link">view all</a>
+                </div>
+                <div class="section-body">
+                    <div class="featured">
+                        <div class="featured-item">
+                            <img src="./image/product-1.jpg" alt="" class="featured-item__image">
+                            <div class="featured-item__info">
+                                <h3 class="featured-item__title">Peperomia Ginny</h3>
+                                <span class="featured-item__price">$25</span>
+                            </div>
+                            <div class="featured-item__actions">
+                                <div class="color">
+                                    <h4 class="color__title">Pot color</h4>
+
+                                    <div class="color-items">
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-border-primary">buy</button>
+                            </div>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./image/product-1.jpg" alt="" class="featured-item__image">
+                            <div class="featured-item__info">
+                                <h3 class="featured-item__title">Peperomia Ginny</h3>
+                                <span class="featured-item__price">$25</span>
+                            </div>
+                            <div class="featured-item__actions">
+                                <div class="color">
+                                    <h4 class="color__title">Pot color</h4>
+
+                                    <div class="color-items">
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-border-primary">buy</button>
+                            </div>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./image/product-1.jpg" alt="" class="featured-item__image">
+                            <div class="featured-item__info">
+                                <h3 class="featured-item__title">Peperomia Ginny</h3>
+                                <span class="featured-item__price">$25</span>
+                            </div>
+                            <div class="featured-item__actions">
+                                <div class="color">
+                                    <h4 class="color__title">Pot color</h4>
+
+                                    <div class="color-items">
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-border-primary">buy</button>
+                            </div>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./image/product-1.jpg" alt="" class="featured-item__image">
+                            <div class="featured-item__info">
+                                <h3 class="featured-item__title">Peperomia Ginny</h3>
+                                <span class="featured-item__price">$25</span>
+                            </div>
+                            <div class="featured-item__actions">
+                                <div class="color">
+                                    <h4 class="color__title">Pot color</h4>
+
+                                    <div class="color-items">
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                        <span class="color-item"></span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-border-primary">buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special">
+            <div class="container">
+                <div class="special-body">
+                    <div class="search">
+                        <button class="btn btn-icon btn-border-primary">
+                            <i data-lucide="settings-2" class="icon"></i>
+                        </button> 
+
+                        <input type="text" class="search__input" placeholder="Search flowers...">
+
+                        <button class="btn btn-icon btn-secondary">
+                            <i data-lucide="search" class="icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
